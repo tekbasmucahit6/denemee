@@ -4,8 +4,10 @@ function SocialCard({ socialmedia , link , icon  , features , i}) {
     <div className='grid jusitfy-center items-center text-center' key={i}>
         <a href={link}>
 
-          <div key={i} className={features}>
+          <div key={i}>
+            <b className={features}>
             {icon}
+            </b>
           </div>
 
 
